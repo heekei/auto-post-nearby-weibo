@@ -889,7 +889,7 @@ namespace nsuZhonglou
         /// <param name="strMemo"></param>
         public void WriteLog(string strMemo)
         {
-            string filename = Server.MapPath("/weibo/shudong/log.html");
+            string filename = Server.MapPath("/weibo/shudong/log.txt");
             //if (!Directory.Exists(Server.MapPath("//logs//")))
             //    Directory.CreateDirectory("//logs//");
             StreamWriter sr = null;
